@@ -7,3 +7,4 @@ int main(int argc, char **argv)
     printf("Hello %s %s!\n", first, last);     return 0;
 printf("Now enter your last name: ");     gets(last); /* buffer overflow? what's that? */
 }
+8
